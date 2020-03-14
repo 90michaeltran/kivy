@@ -61,7 +61,7 @@ For example::
 
 '''
 
-__path__ = 'kivy.garden'
+# __path__ = 'kivy.garden'  # Commented out, as it causes issues with pyinstaller
 
 import sys
 import imp
